@@ -213,6 +213,8 @@ function addFuture(){
 }
 }
 
+//Conditions for getting text from local storage
+{
 {if(localStorage.getItem('9amText')!==null){
 
     var NineLocal=localStorage.getItem('9amText');
@@ -339,7 +341,4 @@ document.getElementById("clear-btn").addEventListener("click", function ()
         localStorage.clear();
         location.reload();
     });   
-
-if(nine==="null"){
-    
 }
