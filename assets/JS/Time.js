@@ -212,3 +212,93 @@ function addFuture(){
     five.classList.add('future');
 }
 }
+
+var NineLocal=localStorage.getItem('9amText');
+var NineText= document.getElementById("9amText");
+NineText.append(NineLocal);
+
+document.getElementById("9am-btn").addEventListener("click", function ()
+    {
+        var NineEvent = document.getElementById("9amText").value ;
+        localStorage.setItem("9amText", NineEvent) ;
+    } , false);
+
+var TenLocal=localStorage.getItem('10amText');
+var TenText= document.getElementById("10amText");
+TenText.append(TenLocal);
+
+document.getElementById("10am-btn").addEventListener("click", function ()
+    {
+        var TenEvent = document.getElementById("10amText").value ;
+        localStorage.setItem("10amText", TenEvent) ;
+    } , false);
+
+var ElevenLocal=localStorage.getItem('11amText');
+var ElevenText= document.getElementById("11amText");
+ElevenText.append(ElevenLocal);
+
+document.getElementById("11am-btn").addEventListener("click", function ()
+    {
+        var ElevenEvent = document.getElementById("11amText").value ;
+        localStorage.setItem("11amText", ElevenEvent) ;
+    } , false);
+
+var TwelveLocal=localStorage.getItem('12pmText');
+var TwelveText= document.getElementById("12pmText");
+TwelveText.append(TwelveLocal);
+
+document.getElementById("12pm-btn").addEventListener("click", function ()
+    {
+        var TwelveEvent = document.getElementById("12pmText").value ;
+        localStorage.setItem("12pmText", TwelveEvent) ;
+    } , false);
+
+var OneLocal=localStorage.getItem('1pmText');
+var OneText= document.getElementById("1pmText");
+OneText.append(OneLocal);
+
+document.getElementById("1pm-btn").addEventListener("click", function ()
+    {
+        var OneEvent = document.getElementById("1pmText").value ;
+        localStorage.setItem("1pmText", OneEvent) ;
+    } , false);
+
+var TwoLocal=localStorage.getItem('2pmText');
+var TwoText= document.getElementById("2pmText");
+TwoText.append(TwoLocal);
+
+document.getElementById("2pm-btn").addEventListener("click", function ()
+    {
+        var TwoEvent = document.getElementById("2pmText").value ;
+        localStorage.setItem("2pmText", TwoEvent) ;
+    } , false);
+
+var ThreeLocal=localStorage.getItem('3pmText');
+var ThreeText= document.getElementById("3pmText");
+ThreeText.append(ThreeLocal);
+
+document.getElementById("3pm-btn").addEventListener("click", function ()
+    {
+        var ThreeEvent = document.getElementById("3pmText").value ;
+        localStorage.setItem("3pmText", ThreeEvent) ;
+    } , false);
+
+var FourLocal=localStorage.getItem('4pmText');
+var FourText= document.getElementById("4pmText");
+FourText.append(FourLocal);
+
+document.getElementById("4pm-btn").addEventListener("click", function ()
+    {
+        var FourEvent = document.getElementById("4pmText").value ;
+        localStorage.setItem("4pmText", FourEvent) ;
+    } , false);
+
+var FiveLocal=localStorage.getItem('5pmText');
+var FiveText= document.getElementById("5pmText");
+FiveText.append(FiveLocal);
+
+document.getElementById("5pm-btn").addEventListener("click", function ()
+    {
+        var FiveEvent = document.getElementById("5pmText").value ;
+        localStorage.setItem("5pmText", FiveEvent) ;
+    } , false);
